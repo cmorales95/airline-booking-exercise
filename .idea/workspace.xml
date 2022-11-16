@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99466851-e3b2-493f-b456-4c6eb8af783b" name="Changes" comment="initial data classes modeling">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/BaggagePackage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/BaggagePackage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/regular/Basic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/regular/RegularBasic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/regular/Classic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/regular/RegularClassic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/regular/Plus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/regular/RegularPlus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/regular/Regular.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/regular/Regular.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/vclub/Basic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/vclub/ClubBasic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/vclub/Classic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/vclub/ClubClassic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/vclub/Plus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/vclub/ClubPlus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/vclub/VClub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/model/baggage/pack/vclub/VClub.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

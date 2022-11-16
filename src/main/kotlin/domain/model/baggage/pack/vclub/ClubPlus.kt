@@ -3,6 +3,9 @@ package domain.model.baggage.pack.vclub
 import domain.model.baggage.pack.BoardingTurn
 import java.math.BigDecimal
 
-class Plus(name: String = "Plus", price: BigDecimal) : VClub(name, price, ){
+class ClubPlus(
+    price: BigDecimal
+) : VClub(price) {
+    override val name: String = "Club Plus"
     override val boardingTurn: BoardingTurn = BoardingTurn.FIRST
 }
