@@ -1,6 +1,6 @@
 import domain.model.Flight
 import domain.presentation.Formatter
-import domain.usecases.GetFlights
+import domain.usecases.flight.GetFlights
 import presentation.PresentationFormat
 import presentation.flight.FlightPresentationFactory
 
