@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99466851-e3b2-493f-b456-4c6eb8af783b" name="Changes" comment="initial data classes modeling">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/model/AirCraft.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/model/AirCraft.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/model/seat/Seat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/model/seat/Seat.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/usecases/GetFlights.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/usecases/flight/GetFlights.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/usecases/GetTickets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/usecases/ticket/GetTickets.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data/airportbook/AirportBookingLocalSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data/airportbook/AirportBookingLocalSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/usecases/flight/GetFlightSaved.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/usecases/flight/GetFlightSaved.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/domain/usecases/flight/GetFlights.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/domain/usecases/flight/GetFlights.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
