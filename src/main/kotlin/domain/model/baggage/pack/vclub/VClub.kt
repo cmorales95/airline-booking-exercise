@@ -8,8 +8,13 @@ import java.math.BigDecimal
 
 const val DISCOUNT = 30
 abstract class VClub(
-    final override var price: BigDecimal
+    price: BigDecimal
 ) : BaggagePackage() {
+
+    override var price: BigDecimal = price
+        get() {
+            return (field * BigDecimal(DISCOUNT)) / BigDecimal(100)
+        }
 
     abstract override val name: String
     abstract override val boardingTurn: BoardingTurn
@@ -18,10 +23,4 @@ abstract class VClub(
         get() = super.baggageTypes + listOf(
             BoxPacked()
         )
-
-    init {
-        price -= (price * BigDecimal(DISCOUNT)) / BigDecimal(100)
-    }
-
-
 }
