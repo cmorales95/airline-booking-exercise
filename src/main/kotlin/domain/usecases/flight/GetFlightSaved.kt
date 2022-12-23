@@ -1,9 +1,10 @@
 package domain.usecases.flight
 
+import domain.datasource.ticket.TicketDataSource
 import domain.model.Flight
 
 class GetFlightSaved(
-    private val getFlightSaved: GetFlightSaved
+    private val getFlightSaved: TicketDataSource
 ) {
     operator fun invoke(): Flight? {
         return null

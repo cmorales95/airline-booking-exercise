@@ -10,8 +10,8 @@ fun String.isNumber(): Boolean {
     return this.all { it.isDigit() }
 }
 
-fun String.isMenuOptionValid(flightsMap: Map<Int, Flight>): Boolean {
+fun <T> String.isMenuOptionValid(mapObjects: Map<Int, T>): Boolean {
     return if (isNotBlankOrEmpty()) {
-        return isNumber() && flightsMap.containsKey(toInt())
+        return isNumber() && mapObjects.containsKey(toInt())
     } else false
 }
