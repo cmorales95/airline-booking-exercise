@@ -1,7 +1,7 @@
-package presentation.ticket.format
+package presentation.ticket.formats
 
 import domain.model.Ticket
-import domain.presentation.Formatter
+import presentation.utils.Formatter
 
 class TicketHTMLFormat : Formatter<Ticket> {
     override fun format(t: Ticket): String {

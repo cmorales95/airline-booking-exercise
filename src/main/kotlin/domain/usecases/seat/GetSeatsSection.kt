@@ -3,7 +3,7 @@ package domain.usecases.seat
 import domain.model.seat.SeatSection
 import domain.usecases.flight.GetFlightSaved
 
-class GetSeatSection(
+class GetSeatsSection(
     private val getFlightSaved: GetFlightSaved
 ) {
     operator fun invoke(): Map<Int, SeatSection> {

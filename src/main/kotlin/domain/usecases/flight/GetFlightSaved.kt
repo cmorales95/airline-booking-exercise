@@ -4,9 +4,9 @@ import domain.datasource.ticket.TicketDataSource
 import domain.model.Flight
 
 class GetFlightSaved(
-    private val getFlightSaved: TicketDataSource
+    private val ticketsDataSource: TicketDataSource
 ) {
-    operator fun invoke(): Flight? {
-        return null
+    operator fun invoke(): Flight {
+        return ticketsDataSource.tickets.first().flight
     }
 }

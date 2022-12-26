@@ -4,9 +4,8 @@ import domain.model.baggage.pack.BaggagePackage
 import domain.model.baggage.pack.vclub.ClubBasic
 import domain.model.baggage.pack.vclub.ClubClassic
 import domain.model.baggage.pack.vclub.ClubPlus
-import java.util.PrimitiveIterator
 
-class BaggaVClubLocalSource : BaggagePackageLocalSource() {
+class BaggageVClubLocalSource : BaggagePackageLocalSource() {
     override fun getBagggagePacks(): Map<Int, BaggagePackage> {
         return mapOf(
             1 to ClubBasic(price),

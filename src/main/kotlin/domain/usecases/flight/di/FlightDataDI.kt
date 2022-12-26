@@ -7,7 +7,7 @@ import data.flight.FlightLocalSource
 import domain.datasource.flight.FlightDataSource
 
 class FlightDataDI {
-    fun providesFlightsData(): FlightDataSource {
+    fun providesFlights(): FlightDataSource {
         val airportDataSource = AirportLocalSource()
         val airportBookingLocalSource = AirportBookingLocalSource(airportDataSource)
         val airCraftLocalSource = AirCraftLocalSource()

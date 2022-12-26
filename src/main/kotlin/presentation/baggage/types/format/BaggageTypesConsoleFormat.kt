@@ -1,4 +1,4 @@
-package domain.usecases.baggage.types.format
+package presentation.baggage.types.format
 
 import domain.model.baggage.type.BaggageType
 import presentation.utils.Formatter
